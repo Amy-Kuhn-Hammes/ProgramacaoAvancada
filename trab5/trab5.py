@@ -38,9 +38,10 @@ def click_event(event, x, y, flags, param):
     if event == cv2.EVENT_LBUTTONDOWN:
 
         pol = [[int(x/20)*20, int(y/20)*20], [int(x/20)*20 + 20, int(y/20)*20], [int(x/20)*20+20, int(y/20)*20+20], [int(x/20)*20, int(y/20)*20+20]]
-
+        print(pol)
         aux = np.array(pol, np.int32)
         aux = aux.reshape((-1,1,2))
+        print(aux)
         cv2.fillPoly(img, pts=[aux], color=(0,0,0))
 
         matrix[int(x/20)][int(y/20)] = 1
