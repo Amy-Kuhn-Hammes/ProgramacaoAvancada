@@ -7,3 +7,4 @@
 | 5  | 12/11/2025 00:30 | https://github.com/Amy-Kuhn-Hammes/ProgramacaoAvancada/tree/main/trab5 | Sim |
 | 6  | 16/11/2025 18:55 | https://github.com/Amy-Kuhn-Hammes/ProgramacaoAvancada/tree/main/trab6 | Sim |
 | 7  | 25/11/2025 22:35 | https://github.com/Amy-Kuhn-Hammes/ProgramacaoAvancada/tree/main/trab7 | Sim |
+| 7  | 25/11/2025 22:35 | https://github.com/Amy-Kuhn-Hammes/ProgramacaoAvancada/tree/main/trab8 | Sim |
