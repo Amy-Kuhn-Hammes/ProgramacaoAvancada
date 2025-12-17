@@ -71,7 +71,7 @@ class HexGrid(Grid):
             circle.draw(img)
 
             trail = Trail(self.__circle.getPoint(), circle.getPoint(),circle.getColor(),self.__hex)
-            trail.floodFill(self.__matrix)
+            trail.floodFill(self.__matrix, None)
             ##trail.showPath(img)
             self.__co.subinscribeNext(MoveCommand(trail, self.__ch, self.__co, 0, self.__positions))
 
